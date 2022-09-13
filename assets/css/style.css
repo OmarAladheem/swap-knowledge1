@@ -1,7 +1,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@300&display=swap');
 
-
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: lato, sans-serif;
     font-weight: 300;
+}
+header {
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo-1 {
+    text-decoration: none;
+}
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+.logo:hover {
+    color: red;
+    transition:.3s ease-in;
+}
+
+ul li {
+    list-style: none;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+ul li a:hover {
+    color: red;
+    transition:.3s ease-in;
 }
